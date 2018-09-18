@@ -1,3 +1,14 @@
+# Pythonpackagename
+This is a packages which does something
+
+# Installation guide
+To install it use the installation proces
+
+# Usage examples 
+Link to tutorial
+
+
+
 
 # Github project workflow
 
