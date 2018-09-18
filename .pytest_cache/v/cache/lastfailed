@@ -1,0 +1,4 @@
+{
+  "test_functions.py::test_awesome_function": true,
+  "test_functions.py::test_something_else": true
+}

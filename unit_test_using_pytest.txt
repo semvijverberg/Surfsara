@@ -1,0 +1,669 @@
+Last login: Tue Sep 18 10:06:48 on ttys000
+gast-honderdeenenvijftig:Surfsara semvijverberg$ pip install pycodestyle
+Requirement already satisfied: pycodestyle in /Users/semvijverberg/anaconda3/lib/python3.6/site-packages (2.4.0)
+distributed 1.21.8 requires msgpack, which is not installed.
+You are using pip version 10.0.1, however version 18.0 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+gast-honderdeenenvijftig:Surfsara semvijverberg$ pip install pycodestyle
+Requirement already satisfied: pycodestyle in /Users/semvijverberg/anaconda3/lib/python3.6/site-packages (2.4.0)
+You are using pip version 10.0.1, however version 18.0 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+gast-honderdeenenvijftig:Surfsara semvijverberg$ pycodestyle demo.py 
+gast-honderdeenenvijftig:Surfsara semvijverberg$ cd ..
+gast-honderdeenenvijftig:Scripts semvijverberg$ ls
+Circulation-Regimes		README_Github.md
+Circulation-Regimes kopie	Surfsara
+Dependencies_tigramite.txt	Tigramite
+Download_CMIP5_data		Tigramite3
+Oxford_Chapter			rasterio
+gast-honderdeenenvijftig:Scripts semvijverberg$ cd Tigramite
+gast-honderdeenenvijftig:Tigramite semvijverberg$ pycodestyle main_download_and_preprocess.py 
+main_download_and_preprocess.py:10:1: E402 module level import not at top of file
+main_download_and_preprocess.py:10:10: E401 multiple imports on one line
+main_download_and_preprocess.py:15:1: E402 module level import not at top of file
+main_download_and_preprocess.py:16:1: E402 module level import not at top of file
+main_download_and_preprocess.py:17:1: E402 module level import not at top of file
+main_download_and_preprocess.py:18:1: E402 module level import not at top of file
+main_download_and_preprocess.py:19:1: E402 module level import not at top of file
+main_download_and_preprocess.py:20:1: E402 module level import not at top of file
+main_download_and_preprocess.py:21:1: E402 module level import not at top of file
+main_download_and_preprocess.py:22:1: E402 module level import not at top of file
+main_download_and_preprocess.py:29:80: E501 line too long (84 > 79 characters)
+main_download_and_preprocess.py:32:80: E501 line too long (83 > 79 characters)
+main_download_and_preprocess.py:32:84: W291 trailing whitespace
+main_download_and_preprocess.py:33:15: W291 trailing whitespace
+main_download_and_preprocess.py:34:80: W291 trailing whitespace
+main_download_and_preprocess.py:38:80: W291 trailing whitespace
+main_download_and_preprocess.py:43:8: E221 multiple spaces before operator
+main_download_and_preprocess.py:44:28: E712 comparison to False should be 'if cond is False:' or 'if not cond:'
+main_download_and_preprocess.py:44:36: E203 whitespace before ':'
+main_download_and_preprocess.py:44:37: E701 multiple statements on one line (colon)
+main_download_and_preprocess.py:44:60: W291 trailing whitespace
+main_download_and_preprocess.py:45:27: E712 comparison to False should be 'if cond is False:' or 'if not cond:'
+main_download_and_preprocess.py:45:35: E701 multiple statements on one line (colon)
+main_download_and_preprocess.py:51:77: W291 trailing whitespace
+main_download_and_preprocess.py:54:20: E203 whitespace before ':'
+main_download_and_preprocess.py:55:6: E128 continuation line under-indented for visual indent
+main_download_and_preprocess.py:55:20: E203 whitespace before ':'
+main_download_and_preprocess.py:56:6: E128 continuation line under-indented for visual indent
+main_download_and_preprocess.py:56:20: E203 whitespace before ':'
+main_download_and_preprocess.py:57:6: E128 continuation line under-indented for visual indent
+main_download_and_preprocess.py:57:20: E203 whitespace before ':'
+main_download_and_preprocess.py:58:6: E128 continuation line under-indented for visual indent
+main_download_and_preprocess.py:58:20: E203 whitespace before ':'
+main_download_and_preprocess.py:59:6: E128 continuation line under-indented for visual indent
+main_download_and_preprocess.py:59:20: E203 whitespace before ':'
+main_download_and_preprocess.py:60:6: E128 continuation line under-indented for visual indent
+main_download_and_preprocess.py:60:19: E203 whitespace before ':'
+main_download_and_preprocess.py:64:73: W291 trailing whitespace
+main_download_and_preprocess.py:65:25: W291 trailing whitespace
+main_download_and_preprocess.py:68:19: W291 trailing whitespace
+main_download_and_preprocess.py:69:1: W293 blank line contains whitespace
+main_download_and_preprocess.py:72:1: E265 block comment should start with '# '
+main_download_and_preprocess.py:73:23: E222 multiple spaces after operator
+main_download_and_preprocess.py:74:27: E128 continuation line under-indented for visual indent
+main_download_and_preprocess.py:75:20: E261 at least two spaces before inline comment
+main_download_and_preprocess.py:75:80: E501 line too long (83 > 79 characters)
+main_download_and_preprocess.py:75:84: W291 trailing whitespace
+main_download_and_preprocess.py:80:18: E712 comparison to True should be 'if cond is True:' or 'if cond:'
+main_download_and_preprocess.py:81:43: W291 trailing whitespace
+main_download_and_preprocess.py:82:1: E115 expected an indented block (comment)
+main_download_and_preprocess.py:83:1: E115 expected an indented block (comment)
+main_download_and_preprocess.py:84:1: E115 expected an indented block (comment)
+main_download_and_preprocess.py:85:15: E221 multiple spaces before operator
+main_download_and_preprocess.py:85:22: E222 multiple spaces after operator
+main_download_and_preprocess.py:85:37: E231 missing whitespace after ','
+main_download_and_preprocess.py:85:48: E231 missing whitespace after ','
+main_download_and_preprocess.py:85:56: E231 missing whitespace after ','
+main_download_and_preprocess.py:92:80: E501 line too long (83 > 79 characters)
+main_download_and_preprocess.py:97:20: E712 comparison to False should be 'if cond is False:' or 'if not cond:'
+main_download_and_preprocess.py:98:15: E221 multiple spaces before operator
+main_download_and_preprocess.py:98:22: E222 multiple spaces after operator
+main_download_and_preprocess.py:100:75: W291 trailing whitespace
+main_download_and_preprocess.py:104:80: E501 line too long (84 > 79 characters)
+main_download_and_preprocess.py:105:80: E501 line too long (83 > 79 characters)
+main_download_and_preprocess.py:105:84: W291 trailing whitespace
+main_download_and_preprocess.py:106:45: W291 trailing whitespace
+main_download_and_preprocess.py:108:18: E712 comparison to True should be 'if cond is True:' or 'if cond:'
+main_download_and_preprocess.py:111:66: W291 trailing whitespace
+main_download_and_preprocess.py:114:37: W291 trailing whitespace
+main_download_and_preprocess.py:116:18: E712 comparison to True should be 'if cond is True:' or 'if cond:'
+main_download_and_preprocess.py:120:1: W293 blank line contains whitespace
+main_download_and_preprocess.py:125:66: W291 trailing whitespace
+main_download_and_preprocess.py:127:50: E712 comparison to False should be 'if cond is False:' or 'if not cond:'
+main_download_and_preprocess.py:131:62: W291 trailing whitespace
+main_download_and_preprocess.py:138:15: E712 comparison to True should be 'if cond is True:' or 'if cond:'
+main_download_and_preprocess.py:142:1: W293 blank line contains whitespace
+main_download_and_preprocess.py:143:17: E712 comparison to False should be 'if cond is False:' or 'if not cond:'
+main_download_and_preprocess.py:150:62: W291 trailing whitespace
+main_download_and_preprocess.py:151:27: E128 continuation line under-indented for visual indent
+main_download_and_preprocess.py:152:1: W293 blank line contains whitespace
+main_download_and_preprocess.py:153:1: W293 blank line contains whitespace
+main_download_and_preprocess.py:157:37: W291 trailing whitespace
+main_download_and_preprocess.py:159:22: E261 at least two spaces before inline comment
+main_download_and_preprocess.py:163:77: W291 trailing whitespace
+main_download_and_preprocess.py:166:80: E501 line too long (86 > 79 characters)
+main_download_and_preprocess.py:168:19: E221 multiple spaces before operator
+main_download_and_preprocess.py:169:1: W293 blank line contains whitespace
+main_download_and_preprocess.py:170:59: W291 trailing whitespace
+main_download_and_preprocess.py:171:25: E128 continuation line under-indented for visual indent
+main_download_and_preprocess.py:171:80: E501 line too long (98 > 79 characters)
+main_download_and_preprocess.py:172:1: W293 blank line contains whitespace
+main_download_and_preprocess.py:174:38: E712 comparison to False should be 'if cond is False:' or 'if not cond:'
+main_download_and_preprocess.py:174:46: E203 whitespace before ':'
+main_download_and_preprocess.py:174:47: E701 multiple statements on one line (colon)
+main_download_and_preprocess.py:176:80: E501 line too long (82 > 79 characters)
+main_download_and_preprocess.py:179:80: E501 line too long (88 > 79 characters)
+main_download_and_preprocess.py:180:80: E501 line too long (82 > 79 characters)
+main_download_and_preprocess.py:183:80: E501 line too long (86 > 79 characters)
+main_download_and_preprocess.py:184:80: E501 line too long (90 > 79 characters)
+main_download_and_preprocess.py:185:36: E712 comparison to True should be 'if cond is True:' or 'if cond:'
+main_download_and_preprocess.py:185:44: W291 trailing whitespace
+main_download_and_preprocess.py:191:14: W291 trailing whitespace
+main_download_and_preprocess.py:192:80: E501 line too long (93 > 79 characters)
+main_download_and_preprocess.py:193:1: W293 blank line contains whitespace
+main_download_and_preprocess.py:194:1: W293 blank line contains whitespace
+main_download_and_preprocess.py:195:5: E303 too many blank lines (2)
+main_download_and_preprocess.py:195:84: W291 trailing whitespace
+main_download_and_preprocess.py:197:49: W291 trailing whitespace
+main_download_and_preprocess.py:198:84: W291 trailing whitespace
+main_download_and_preprocess.py:200:1: W293 blank line contains whitespace
+main_download_and_preprocess.py:204:19: E712 comparison to True should be 'if cond is True:' or 'if cond:'
+main_download_and_preprocess.py:206:80: E501 line too long (91 > 79 characters)
+main_download_and_preprocess.py:207:80: E501 line too long (98 > 79 characters)
+main_download_and_preprocess.py:207:99: W291 trailing whitespace
+main_download_and_preprocess.py:208:1: W293 blank line contains whitespace
+main_download_and_preprocess.py:217:1: W293 blank line contains whitespace
+main_download_and_preprocess.py:218:21: E712 comparison to False should be 'if cond is False:' or 'if not cond:'
+main_download_and_preprocess.py:223:1: W293 blank line contains whitespace
+main_download_and_preprocess.py:225:16: E231 missing whitespace after ','
+main_download_and_preprocess.py:225:18: E231 missing whitespace after ','
+main_download_and_preprocess.py:225:21: E261 at least two spaces before inline comment
+main_download_and_preprocess.py:225:80: E501 line too long (93 > 79 characters)
+main_download_and_preprocess.py:229:64: E202 whitespace before ')'
+main_download_and_preprocess.py:234:19: E201 whitespace after '('
+main_download_and_preprocess.py:234:22: E231 missing whitespace after ':'
+main_download_and_preprocess.py:234:28: E231 missing whitespace after ','
+main_download_and_preprocess.py:234:30: E231 missing whitespace after ':'
+main_download_and_preprocess.py:234:36: E231 missing whitespace after ','
+main_download_and_preprocess.py:234:38: E231 missing whitespace after ':'
+main_download_and_preprocess.py:234:44: E231 missing whitespace after ','
+main_download_and_preprocess.py:234:46: E231 missing whitespace after ':'
+main_download_and_preprocess.py:234:52: E231 missing whitespace after ','
+main_download_and_preprocess.py:234:54: E231 missing whitespace after ':'
+main_download_and_preprocess.py:234:60: E231 missing whitespace after ','
+main_download_and_preprocess.py:234:62: E231 missing whitespace after ':'
+main_download_and_preprocess.py:235:22: E231 missing whitespace after ':'
+main_download_and_preprocess.py:235:28: E231 missing whitespace after ','
+main_download_and_preprocess.py:235:30: E231 missing whitespace after ':'
+main_download_and_preprocess.py:235:36: E231 missing whitespace after ','
+main_download_and_preprocess.py:235:38: E231 missing whitespace after ':'
+main_download_and_preprocess.py:235:44: E231 missing whitespace after ','
+main_download_and_preprocess.py:235:47: E231 missing whitespace after ':'
+main_download_and_preprocess.py:235:53: E231 missing whitespace after ','
+main_download_and_preprocess.py:235:56: E231 missing whitespace after ':'
+main_download_and_preprocess.py:235:62: E231 missing whitespace after ','
+main_download_and_preprocess.py:235:65: E231 missing whitespace after ':'
+main_download_and_preprocess.py:235:71: E202 whitespace before '}'
+main_download_and_preprocess.py:235:73: E202 whitespace before ')'
+main_download_and_preprocess.py:236:80: E501 line too long (87 > 79 characters)
+main_download_and_preprocess.py:236:88: W291 trailing whitespace
+main_download_and_preprocess.py:237:22: E128 continuation line under-indented for visual indent
+main_download_and_preprocess.py:237:70: E202 whitespace before ')'
+main_download_and_preprocess.py:238:1: W293 blank line contains whitespace
+main_download_and_preprocess.py:243:19: E712 comparison to True should be 'if cond is True:' or 'if cond:'
+main_download_and_preprocess.py:245:80: E501 line too long (80 > 79 characters)
+main_download_and_preprocess.py:245:81: W291 trailing whitespace
+main_download_and_preprocess.py:246:39: E128 continuation line under-indented for visual indent
+main_download_and_preprocess.py:247:1: W293 blank line contains whitespace
+main_download_and_preprocess.py:248:21: E712 comparison to False should be 'if cond is False:' or 'if not cond:'
+main_download_and_preprocess.py:249:80: E501 line too long (80 > 79 characters)
+main_download_and_preprocess.py:249:81: W291 trailing whitespace
+main_download_and_preprocess.py:250:39: E128 continuation line under-indented for visual indent
+main_download_and_preprocess.py:250:53: E202 whitespace before ')'
+main_download_and_preprocess.py:251:80: E501 line too long (80 > 79 characters)
+main_download_and_preprocess.py:252:65: W291 trailing whitespace
+main_download_and_preprocess.py:254:61: W291 trailing whitespace
+main_download_and_preprocess.py:255:1: W293 blank line contains whitespace
+main_download_and_preprocess.py:266:80: E501 line too long (80 > 79 characters)
+main_download_and_preprocess.py:269:45: E225 missing whitespace around operator
+main_download_and_preprocess.py:269:45: E712 comparison to False should be 'if cond is False:' or 'if not cond:'
+main_download_and_preprocess.py:269:74: E231 missing whitespace after ','
+main_download_and_preprocess.py:269:80: E501 line too long (97 > 79 characters)
+main_download_and_preprocess.py:270:1: W293 blank line contains whitespace
+main_download_and_preprocess.py:271:44: E261 at least two spaces before inline comment
+main_download_and_preprocess.py:271:80: E501 line too long (81 > 79 characters)
+main_download_and_preprocess.py:271:82: W291 trailing whitespace
+main_download_and_preprocess.py:275:1: W293 blank line contains whitespace
+main_download_and_preprocess.py:277:80: E501 line too long (80 > 79 characters)
+main_download_and_preprocess.py:280:80: E501 line too long (82 > 79 characters)
+main_download_and_preprocess.py:281:53: E231 missing whitespace after ','
+main_download_and_preprocess.py:281:76: E231 missing whitespace after ','
+main_download_and_preprocess.py:284:79: W291 trailing whitespace
+main_download_and_preprocess.py:286:1: W293 blank line contains whitespace
+main_download_and_preprocess.py:287:77: W291 trailing whitespace
+main_download_and_preprocess.py:288:32: E222 multiple spaces after operator
+main_download_and_preprocess.py:288:80: E501 line too long (80 > 79 characters)
+main_download_and_preprocess.py:289:80: E501 line too long (81 > 79 characters)
+main_download_and_preprocess.py:290:1: W293 blank line contains whitespace
+main_download_and_preprocess.py:291:1: W293 blank line contains whitespace
+main_download_and_preprocess.py:292:5: E303 too many blank lines (2)
+main_download_and_preprocess.py:292:49: E712 comparison to True should be 'if cond is not True:' or 'if not cond:'
+main_download_and_preprocess.py:292:56: E203 whitespace before ':'
+main_download_and_preprocess.py:292:57: E701 multiple statements on one line (colon)
+main_download_and_preprocess.py:292:80: E501 line too long (96 > 79 characters)
+main_download_and_preprocess.py:293:80: E501 line too long (90 > 79 characters)
+main_download_and_preprocess.py:294:1: W293 blank line contains whitespace
+main_download_and_preprocess.py:295:49: E202 whitespace before ')'
+main_download_and_preprocess.py:299:5: E265 block comment should start with '# '
+main_download_and_preprocess.py:299:8: W291 trailing whitespace
+main_download_and_preprocess.py:306:23: E261 at least two spaces before inline comment
+main_download_and_preprocess.py:307:36: E261 at least two spaces before inline comment
+main_download_and_preprocess.py:308:30: E261 at least two spaces before inline comment
+main_download_and_preprocess.py:308:80: E501 line too long (94 > 79 characters)
+main_download_and_preprocess.py:309:80: E501 line too long (83 > 79 characters)
+main_download_and_preprocess.py:309:84: W291 trailing whitespace
+main_download_and_preprocess.py:310:5: E265 block comment should start with '# '
+main_download_and_preprocess.py:311:32: E261 at least two spaces before inline comment
+main_download_and_preprocess.py:311:80: E501 line too long (88 > 79 characters)
+main_download_and_preprocess.py:313:22: E203 whitespace before ':'
+main_download_and_preprocess.py:313:26: E201 whitespace after '['
+main_download_and_preprocess.py:313:33: E261 at least two spaces before inline comment
+main_download_and_preprocess.py:313:45: W291 trailing whitespace
+main_download_and_preprocess.py:314:22: E203 whitespace before ':'
+main_download_and_preprocess.py:314:26: E201 whitespace after '['
+main_download_and_preprocess.py:314:33: E261 at least two spaces before inline comment
+main_download_and_preprocess.py:314:45: W291 trailing whitespace
+main_download_and_preprocess.py:315:22: E203 whitespace before ':'
+main_download_and_preprocess.py:315:26: E201 whitespace after '['
+main_download_and_preprocess.py:315:32: E261 at least two spaces before inline comment
+main_download_and_preprocess.py:315:44: W291 trailing whitespace
+main_download_and_preprocess.py:316:22: E203 whitespace before ':'
+main_download_and_preprocess.py:316:26: E201 whitespace after '['
+main_download_and_preprocess.py:316:56: E261 at least two spaces before inline comment
+main_download_and_preprocess.py:317:22: E203 whitespace before ':'
+main_download_and_preprocess.py:317:26: E201 whitespace after '['
+main_download_and_preprocess.py:317:44: E261 at least two spaces before inline comment
+main_download_and_preprocess.py:318:22: E203 whitespace before ':'
+main_download_and_preprocess.py:318:26: E201 whitespace after '['
+main_download_and_preprocess.py:318:52: E261 at least two spaces before inline comment
+main_download_and_preprocess.py:319:22: E203 whitespace before ':'
+main_download_and_preprocess.py:319:29: E261 at least two spaces before inline comment
+main_download_and_preprocess.py:321:32: W291 trailing whitespace
+main_download_and_preprocess.py:322:23: E261 at least two spaces before inline comment
+main_download_and_preprocess.py:328:30: W291 trailing whitespace
+main_download_and_preprocess.py:329:24: E261 at least two spaces before inline comment
+main_download_and_preprocess.py:330:29: W291 trailing whitespace
+main_download_and_preprocess.py:338:55: E127 continuation line over-indented for visual indent
+main_download_and_preprocess.py:339:38: E712 comparison to True should be 'if cond is not True:' or 'if not cond:'
+main_download_and_preprocess.py:339:45: E203 whitespace before ':'
+main_download_and_preprocess.py:339:46: E701 multiple statements on one line (colon)
+main_download_and_preprocess.py:340:80: E501 line too long (87 > 79 characters)
+main_download_and_preprocess.py:341:41: E712 comparison to True should be 'if cond is not True:' or 'if not cond:'
+main_download_and_preprocess.py:341:48: E203 whitespace before ':'
+main_download_and_preprocess.py:341:49: E701 multiple statements on one line (colon)
+main_download_and_preprocess.py:341:80: E501 line too long (80 > 79 characters)
+main_download_and_preprocess.py:341:81: W291 trailing whitespace
+main_download_and_preprocess.py:345:80: E501 line too long (99 > 79 characters)
+main_download_and_preprocess.py:347:49: E202 whitespace before ')'
+main_download_and_preprocess.py:348:80: E501 line too long (84 > 79 characters)
+main_download_and_preprocess.py:350:5: E265 block comment should start with '# '
+main_download_and_preprocess.py:360:80: E501 line too long (91 > 79 characters)
+main_download_and_preprocess.py:361:5: E265 block comment should start with '# '
+main_download_and_preprocess.py:361:8: W291 trailing whitespace
+main_download_and_preprocess.py:365:80: E501 line too long (82 > 79 characters)
+main_download_and_preprocess.py:366:5: E265 block comment should start with '# '
+main_download_and_preprocess.py:370:80: E501 line too long (88 > 79 characters)
+main_download_and_preprocess.py:372:5: E265 block comment should start with '# '
+main_download_and_preprocess.py:373:1: W293 blank line contains whitespace
+main_download_and_preprocess.py:374:1: W293 blank line contains whitespace
+main_download_and_preprocess.py:375:5: E303 too many blank lines (2)
+main_download_and_preprocess.py:376:5: E266 too many leading '#' for block comment
+main_download_and_preprocess.py:377:5: E265 block comment should start with '# '
+main_download_and_preprocess.py:378:5: E265 block comment should start with '# '
+main_download_and_preprocess.py:379:5: E265 block comment should start with '# '
+main_download_and_preprocess.py:380:5: E265 block comment should start with '# '
+main_download_and_preprocess.py:385:5: E266 too many leading '#' for block comment
+main_download_and_preprocess.py:386:5: E265 block comment should start with '# '
+main_download_and_preprocess.py:387:5: E265 block comment should start with '# '
+main_download_and_preprocess.py:388:5: E265 block comment should start with '# '
+main_download_and_preprocess.py:388:80: E501 line too long (90 > 79 characters)
+main_download_and_preprocess.py:388:91: W291 trailing whitespace
+main_download_and_preprocess.py:389:80: E501 line too long (106 > 79 characters)
+main_download_and_preprocess.py:389:107: W291 trailing whitespace
+main_download_and_preprocess.py:390:80: E501 line too long (102 > 79 characters)
+main_download_and_preprocess.py:390:103: W291 trailing whitespace
+main_download_and_preprocess.py:392:5: E266 too many leading '#' for block comment
+main_download_and_preprocess.py:393:5: E265 block comment should start with '# '
+main_download_and_preprocess.py:394:5: E266 too many leading '#' for block comment
+main_download_and_preprocess.py:395:5: E265 block comment should start with '# '
+main_download_and_preprocess.py:395:80: E501 line too long (90 > 79 characters)
+main_download_and_preprocess.py:396:5: E265 block comment should start with '# '
+main_download_and_preprocess.py:397:5: E265 block comment should start with '# '
+main_download_and_preprocess.py:398:5: E265 block comment should start with '# '
+main_download_and_preprocess.py:399:5: E265 block comment should start with '# '
+main_download_and_preprocess.py:400:5: E265 block comment should start with '# '
+main_download_and_preprocess.py:400:80: E501 line too long (82 > 79 characters)
+main_download_and_preprocess.py:400:83: W291 trailing whitespace
+main_download_and_preprocess.py:401:80: E501 line too long (106 > 79 characters)
+main_download_and_preprocess.py:401:107: W291 trailing whitespace
+main_download_and_preprocess.py:402:80: E501 line too long (102 > 79 characters)
+main_download_and_preprocess.py:402:103: W291 trailing whitespace
+main_download_and_preprocess.py:404:5: E266 too many leading '#' for block comment
+main_download_and_preprocess.py:405:5: E265 block comment should start with '# '
+main_download_and_preprocess.py:406:5: E265 block comment should start with '# '
+main_download_and_preprocess.py:406:80: E501 line too long (81 > 79 characters)
+main_download_and_preprocess.py:409:5: E265 block comment should start with '# '
+main_download_and_preprocess.py:411:5: E266 too many leading '#' for block comment
+main_download_and_preprocess.py:411:80: E501 line too long (84 > 79 characters)
+main_download_and_preprocess.py:412:5: E266 too many leading '#' for block comment
+main_download_and_preprocess.py:413:5: E266 too many leading '#' for block comment
+main_download_and_preprocess.py:413:80: E501 line too long (84 > 79 characters)
+main_download_and_preprocess.py:414:5: E265 block comment should start with '# '
+main_download_and_preprocess.py:415:5: E265 block comment should start with '# '
+main_download_and_preprocess.py:415:80: E501 line too long (80 > 79 characters)
+main_download_and_preprocess.py:416:5: E265 block comment should start with '# '
+main_download_and_preprocess.py:417:5: E265 block comment should start with '# '
+main_download_and_preprocess.py:417:80: E501 line too long (82 > 79 characters)
+main_download_and_preprocess.py:418:5: E265 block comment should start with '# '
+main_download_and_preprocess.py:419:5: E265 block comment should start with '# '
+main_download_and_preprocess.py:419:80: E501 line too long (100 > 79 characters)
+main_download_and_preprocess.py:420:5: E265 block comment should start with '# '
+main_download_and_preprocess.py:422:5: E265 block comment should start with '# '
+main_download_and_preprocess.py:426:5: E265 block comment should start with '# '
+main_download_and_preprocess.py:427:5: E265 block comment should start with '# '
+main_download_and_preprocess.py:428:5: E265 block comment should start with '# '
+main_download_and_preprocess.py:429:5: E265 block comment should start with '# '
+main_download_and_preprocess.py:429:80: E501 line too long (113 > 79 characters)
+main_download_and_preprocess.py:430:5: E265 block comment should start with '# '
+main_download_and_preprocess.py:431:5: E265 block comment should start with '# '
+main_download_and_preprocess.py:431:19: W292 no newline at end of file
+gast-honderdeenenvijftig:Tigramite semvijverberg$ spyder
+objc[10064]: Class FIFinderSyncExtensionHost is implemented in both /System/Library/PrivateFrameworks/FinderKit.framework/Versions/A/FinderKit (0x7fff86e8cc90) and /System/Library/PrivateFrameworks/FileProvider.framework/OverrideBundles/FinderSyncCollaborationFileProviderOverride.bundle/Contents/MacOS/FinderSyncCollaborationFileProviderOverride (0xb2fe37cd8). One of the two will be used. Which one is undefined.
+gast-honderdeenenvijftig:Tigramite semvijverberg$ cd ..
+gast-honderdeenenvijftig:Scripts semvijverberg$ cd RGCPD/
+gast-honderdeenenvijftig:RGCPD semvijverberg$ cookiecutter https://github.com/audreyr/cookiecutter-pypackage.git
+full_name [Audrey Roy Greenfeld]: Sem Vijverberg
+email [audreyr@example.com]: sem.vijverberg@vu.nl
+github_username [audreyr]: semvijverberg
+project_name [Python Boilerplate]: RGCPD
+project_slug [rgcpd]: RGCPD
+project_short_description [Python Boilerplate contains all the boilerplate you need to create a Python package.]: Python Package to find causal precursors in climate data.^[[D^[[D^[[D
+pypi_username [semvijverberg]: 
+version [0.1.0]: 
+use_pytest [n]: y
+use_pypi_deployment_with_travis [y]: y
+add_pyup_badge [n]: n
+Select command_line_interface:
+1 - Click
+2 - No command-line interface
+Choose from 1, 2 [1]: 1
+create_author_file [y]: y
+Select open_source_license:
+1 - MIT license
+2 - BSD license
+3 - ISC license
+4 - Apache Software License 2.0
+5 - GNU General Public License v3
+6 - Not open source
+Choose from 1, 2, 3, 4, 5, 6 [1]: 5
+gast-honderdeenenvijftig:RGCPD semvijverberg$ ls
+gast-honderdeenenvijftig:RGCPD semvijverberg$ cd ..
+gast-honderdeenenvijftig:Scripts semvijverberg$ cd RGCPD/
+gast-honderdeenenvijftig:RGCPD semvijverberg$ ls
+AUTHORS.rst			MANIFEST.in			functions_pp.py			setup.py
+CONTRIBUTING.rst		Makefile			main_RGCPD_tig3.py		tests
+Create_1d_timeseries.py		README.rst			main_download_and_preprocess.py	tox.ini
+HISTORY.rst			RGCPD				requirements_dev.txt		what_variable_pp.py
+LICENSE				docs				setup.cfg
+gast-honderdeenenvijftig:RGCPD semvijverberg$ git init .
+Initialized empty Git repository in /Users/semvijverberg/surfdrive/Scripts/RGCPD/.git/
+gast-honderdeenenvijftig:RGCPD semvijverberg$ git add .
+gast-honderdeenenvijftig:RGCPD semvijverberg$ git commit -m "test publishing"
+[master (root-commit) 9e3aebf] test publishing
+ 34 files changed, 2713 insertions(+)
+ create mode 100644 .editorconfig
+ create mode 100644 .github/ISSUE_TEMPLATE.md
+ create mode 100644 .gitignore
+ create mode 100644 .travis.yml
+ create mode 100644 AUTHORS.rst
+ create mode 100644 CONTRIBUTING.rst
+ create mode 100644 Create_1d_timeseries.py
+ create mode 100644 HISTORY.rst
+ create mode 100644 LICENSE
+ create mode 100644 MANIFEST.in
+ create mode 100644 Makefile
+ create mode 100644 README.rst
+ create mode 100644 RGCPD/RGCPD.py
+ create mode 100644 RGCPD/__init__.py
+ create mode 100644 RGCPD/cli.py
+ create mode 100644 docs/Makefile
+ create mode 100644 docs/authors.rst
+ create mode 100755 docs/conf.py
+ create mode 100644 docs/contributing.rst
+ create mode 100644 docs/history.rst
+ create mode 100644 docs/index.rst
+ create mode 100644 docs/installation.rst
+ create mode 100644 docs/make.bat
+ create mode 100644 docs/readme.rst
+ create mode 100644 docs/usage.rst
+ create mode 100644 functions_pp.py
+ create mode 100644 main_RGCPD_tig3.py
+ create mode 100644 main_download_and_preprocess.py
+ create mode 100644 requirements_dev.txt
+ create mode 100644 setup.cfg
+ create mode 100644 setup.py
+ create mode 100644 tests/test_RGCPD.py
+ create mode 100644 tox.ini
+ create mode 100644 what_variable_pp.py
+gast-honderdeenenvijftig:RGCPD semvijverberg$ git remote add origin https://github.com/semvijverberg/RGCPD.git
+gast-honderdeenenvijftig:RGCPD semvijverberg$ ls
+AUTHORS.rst			MANIFEST.in			functions_pp.py			setup.py
+CONTRIBUTING.rst		Makefile			main_RGCPD_tig3.py		tests
+Create_1d_timeseries.py		README.rst			main_download_and_preprocess.py	tox.ini
+HISTORY.rst			RGCPD				requirements_dev.txt		what_variable_pp.py
+LICENSE				docs				setup.cfg
+gast-honderdeenenvijftig:RGCPD semvijverberg$ git push -u origin master
+Counting objects: 40, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (33/33), done.
+Writing objects: 100% (40/40), 34.24 KiB | 701.00 KiB/s, done.
+Total 40 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), done.
+remote: 
+remote: Create a pull request for 'master' on GitHub by visiting:
+remote:      https://github.com/semvijverberg/RGCPD/pull/new/master
+remote: 
+To https://github.com/semvijverberg/RGCPD.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+gast-honderdeenenvijftig:RGCPD semvijverberg$ git branch
+* master
+gast-honderdeenenvijftig:RGCPD semvijverberg$ ls
+RGCPD
+gast-honderdeenenvijftig:RGCPD semvijverberg$ cd RGCPD/
+gast-honderdeenenvijftig:RGCPD semvijverberg$ ls
+CHANGELOG.rst		LICENSE			README.rst		requirements.txt	tests
+CODE_OF_CONDUCT.rst	MANIFEST.in		RGCPD			setup.cfg
+CONTRIBUTING.rst	NOTICE			docs			setup.py
+gast-honderdeenenvijftig:RGCPD semvijverberg$ git add . 
+gast-honderdeenenvijftig:RGCPD semvijverberg$ git commit -m " test "
+[master a18e67e]  test
+ 5 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 .DS_Store
+ rename RGCPD_functions_version_04.py => RGCPD/RGCPD_functions_version_04.py (100%)
+ rename functions_pp.py => RGCPD/functions_pp.py (100%)
+ rename main_RGCPD_tig3.py => RGCPD/main_RGCPD_tig3.py (100%)
+ rename main_download_and_preprocess.py => RGCPD/main_download_and_preprocess.py (100%)
+gast-honderdeenenvijftig:RGCPD semvijverberg$ git push remote master
+Counting objects: 4, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 717 bytes | 143.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/semvijverberg/RGCPD.git
+   3c91bfe..a18e67e  master -> master
+gast-honderdeenenvijftig:RGCPD semvijverberg$ ipython
+Python 3.6.5 |Anaconda, Inc.| (default, Apr 26 2018, 08:42:37) 
+Type 'copyright', 'credits' or 'license' for more information
+IPython 6.4.0 -- An enhanced Interactive Python. Type '?' for help.
+
+In [1]: ls
+CHANGELOG.rst        CONTRIBUTING.rst     MANIFEST.in          README.rst           docs/                setup.cfg            tests/
+CODE_OF_CONDUCT.rst  LICENSE              NOTICE               RGCPD/               requirements.txt     setup.py
+
+In [2]: cd ..
+/Users/semvijverberg/surfdrive/Scripts/RGCPD
+
+In [3]: cd ..
+/Users/semvijverberg/surfdrive/Scripts
+
+In [4]: cd Surfsara/
+/Users/semvijverberg/surfdrive/Scripts/Surfsara
+
+In [5]: ls
+LICENSE            README.md*         demo.py            functions.py       test_functions.py
+
+In [6]: from functions import *
+
+In [7]: awesome_function()
+Do some heavy calculation
+Out[7]: 42
+
+In [8]: awesome_function()
+Do some heavy calculation
+Out[8]: 42
+
+In [9]: awesome_function()
+Do some heavy calculation
+Out[9]: 42
+
+In [10]: from functions import *
+
+In [11]: awesome_function()
+Do some heavy calculation
+Out[11]: 42
+
+In [12]: from functions import *
+
+In [13]: awesome_function()
+Do some heavy calculation
+Out[13]: 42
+
+In [14]: %reload_ext(functions)
+---------------------------------------------------------------------------
+ModuleNotFoundError                       Traceback (most recent call last)
+<ipython-input-14-400d0a78918b> in <module>()
+----> 1 get_ipython().run_line_magic('reload_ext', '(functions)')
+
+~/anaconda3/lib/python3.6/site-packages/IPython/core/interactiveshell.py in run_line_magic(self, magic_name, line, _stack_depth)
+   2129                 kwargs['local_ns'] = sys._getframe(stack_depth).f_locals
+   2130             with self.builtin_trap:
+-> 2131                 result = fn(*args,**kwargs)
+   2132             return result
+   2133 
+
+<decorator-gen-67> in reload_ext(self, module_str)
+
+~/anaconda3/lib/python3.6/site-packages/IPython/core/magic.py in <lambda>(f, *a, **k)
+    185     # but it's overkill for just that one bit of state.
+    186     def magic_deco(arg):
+--> 187         call = lambda f, *a, **k: f(*a, **k)
+    188 
+    189         if callable(arg):
+
+~/anaconda3/lib/python3.6/site-packages/IPython/core/magics/extension.py in reload_ext(self, module_str)
+     61         if not module_str:
+     62             raise UsageError('Missing module name.')
+---> 63         self.shell.extension_manager.reload_extension(module_str)
+
+~/anaconda3/lib/python3.6/site-packages/IPython/core/extensions.py in reload_extension(self, module_str)
+    133                 self.loaded.add(module_str)
+    134         else:
+--> 135             self.load_extension(module_str)
+    136 
+    137     def _call_load_ipython_extension(self, mod):
+
+~/anaconda3/lib/python3.6/site-packages/IPython/core/extensions.py in load_extension(self, module_str)
+     83             if module_str not in sys.modules:
+     84                 with prepended_to_syspath(self.ipython_extension_dir):
+---> 85                     mod = import_module(module_str)
+     86                     if mod.__file__.startswith(self.ipython_extension_dir):
+     87                         print(("Loading extensions from {dir} is deprecated. "
+
+~/anaconda3/lib/python3.6/importlib/__init__.py in import_module(name, package)
+    124                 break
+    125             level += 1
+--> 126     return _bootstrap._gcd_import(name[level:], package, level)
+    127 
+    128 
+
+~/anaconda3/lib/python3.6/importlib/_bootstrap.py in _gcd_import(name, package, level)
+
+~/anaconda3/lib/python3.6/importlib/_bootstrap.py in _find_and_load(name, import_)
+
+~/anaconda3/lib/python3.6/importlib/_bootstrap.py in _find_and_load_unlocked(name, import_)
+
+ModuleNotFoundError: No module named '(functions)'
+
+In [15]: exit()
+gast-honderdeenenvijftig:RGCPD semvijverberg$ ipython
+Python 3.6.5 |Anaconda, Inc.| (default, Apr 26 2018, 08:42:37) 
+Type 'copyright', 'credits' or 'license' for more information
+IPython 6.4.0 -- An enhanced Interactive Python. Type '?' for help.
+
+In [1]: ls
+CHANGELOG.rst        CONTRIBUTING.rst     MANIFEST.in          README.rst           docs/                setup.cfg            tests/
+CODE_OF_CONDUCT.rst  LICENSE              NOTICE               RGCPD/               requirements.txt     setup.py
+
+In [2]: from functions import *
+---------------------------------------------------------------------------
+ModuleNotFoundError                       Traceback (most recent call last)
+<ipython-input-2-f35e4f902c99> in <module>()
+----> 1 from functions import *
+
+ModuleNotFoundError: No module named 'functions'
+
+In [3]: cd ..
+/Users/semvijverberg/surfdrive/Scripts/RGCPD
+
+In [4]: cd ..
+/Users/semvijverberg/surfdrive/Scripts
+
+In [5]: cd Surfsara/
+/Users/semvijverberg/surfdrive/Scripts/Surfsara
+
+In [6]: ipython
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+<ipython-input-6-0c8359920307> in <module>()
+----> 1 ipython
+
+NameError: name 'ipython' is not defined
+
+In [7]: from functions import *
+
+In [8]: awesome_function()
+Do some heavy calculation!
+Out[8]: 41
+
+In [9]: from test_functions import *
+
+In [10]: test_awesome_function
+Out[10]: <function test_functions.test_awesome_function()>
+
+In [11]: test_awesome_function()
+Do some heavy calculation!
+---------------------------------------------------------------------------
+AssertionError                            Traceback (most recent call last)
+<ipython-input-11-1e88e8d7a434> in <module>()
+----> 1 test_awesome_function()
+
+~/surfdrive/Scripts/Surfsara/test_functions.py in test_awesome_function()
+     11     expected_value = 42
+     12     actual_value = awesome_function()
+---> 13     assert expected_value == actual_value
+     14 
+
+AssertionError: 
+
+In [12]: exit()
+gast-honderdeenenvijftig:RGCPD semvijverberg$ pytest
+usage: pytest [options] [file_or_dir] [file_or_dir] [...]
+pytest: error: unrecognized arguments: --cov --cov-report --cov-report term --cov-report html
+  inifile: /Users/semvijverberg/surfdrive/Scripts/RGCPD/RGCPD/setup.cfg
+  rootdir: /Users/semvijverberg/surfdrive/Scripts/RGCPD/RGCPD
+gast-honderdeenenvijftig:RGCPD semvijverberg$ cd ..
+gast-honderdeenenvijftig:RGCPD semvijverberg$ cd ..
+gast-honderdeenenvijftig:Scripts semvijverberg$ cd Surfsara/
+gast-honderdeenenvijftig:Surfsara semvijverberg$ pytest
+===================================================================== test session starts =====================================================================
+platform darwin -- Python 3.6.5, pytest-3.5.1, py-1.5.3, pluggy-0.6.0
+rootdir: /Users/semvijverberg/surfdrive/Scripts/Surfsara, inifile:
+plugins: remotedata-0.2.1, openfiles-0.3.0, doctestplus-0.1.3, arraydiff-0.2
+collected 1 item                                                                                                                                              
+
+test_functions.py .                                                                                                                                     [100%]
+
+================================================================== 1 passed in 0.02 seconds ===================================================================
+gast-honderdeenenvijftig:Surfsara semvijverberg$ pytest
+===================================================================== test session starts =====================================================================
+platform darwin -- Python 3.6.5, pytest-3.5.1, py-1.5.3, pluggy-0.6.0
+rootdir: /Users/semvijverberg/surfdrive/Scripts/Surfsara, inifile:
+plugins: remotedata-0.2.1, openfiles-0.3.0, doctestplus-0.1.3, arraydiff-0.2
+collected 0 items / 1 errors                                                                                                                                  
+
+=========================================================================== ERRORS ============================================================================
+_____________________________________________________________ ERROR collecting test_functions.py ______________________________________________________________
+test_functions.py:16: in <module>
+    test_awesome_function()
+test_functions.py:13: in test_awesome_function
+    assert expected_value == actual_value, "value does not match"
+E   AssertionError: value does not match
+E   assert 42 == 41
+----------------------------------------------------------------------- Captured stdout -----------------------------------------------------------------------
+Do some heavy calculation!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! Interrupted: 1 errors during collection !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+=================================================================== 1 error in 0.12 seconds ===================================================================
+gast-honderdeenenvijftig:Surfsara semvijverberg$ 
